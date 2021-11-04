@@ -12,6 +12,6 @@ export const styles = StyleSheet.create({
   avatarContainer: {
     justifyContent: "center",
     alignItems: "center",
-    marginLeft: 8
+    marginLeft: 8,
   }
 })

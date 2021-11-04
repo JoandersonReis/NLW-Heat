@@ -13,6 +13,10 @@ import java.util.ArrayList;
 
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
+// react-native-reanimated
+import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -58,7 +62,9 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
-      new LinearGradientPackage()
+      new LinearGradientPackage(),
+      new ReanimatedPackage(),
+      new VectorIconsPackage()
     ));
   }
 }
