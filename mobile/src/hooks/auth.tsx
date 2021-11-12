@@ -1,10 +1,10 @@
 import axios from "axios";
 import React, { createContext, ReactNode, useContext, useState } from "react";
-import OAuthManager from "react-native-oauth"
+import { authorize, AuthorizeResult } from "react-native-app-auth"
 import { api } from "../services/api";
 
-let CLIENT_SECRET = "c33e85f7d71cc5a8dca0dd70f74a868c43c3bd9e"
-let CLIENT_ID = "b88e1e5badce220f6691"
+let CLIENT_SECRET = "e5fc9f001a33928e4ea0739ed43f50aa84bcbcf0"
+let CLIENT_ID = "2bb23337fab7032bed49"
 
 type User = {
   id: number,
@@ -15,7 +15,7 @@ type User = {
 
 type AuthContextData = {
   user: User | null,
-  isSigningIng: boolean,
+  isSigningIn: boolean,
   signIn: () => Promise<void>,
   signOut: () => Promise<void>
 }
@@ -28,23 +28,39 @@ export const AuthContext = createContext({} as AuthContextData)
 
 
 function AuthProvider({ children }: AuthProviderProps) {
-  const [ isSigningIng, setIsSigningIng ] = useState(false)
+  const [ isSigningIn, setIsSigningIn ] = useState(false)
   const [ user, setUser ] = useState<User | null>(null)
-  const manager = new OAuthManager("NLW Heat")
-  const signInUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=${CLIENT_ID}`
+  const [ code, setCode ] = useState("")
 
   async function signIn() {
+    setIsSigningIn(true)
 
-    manager.configure({
-      github: {
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
-        callback_url: "http://localhost/github"
+    const config = {
+      redirectUrl: 'com.nlwheat.mobile://oauthredirect',
+      clientId: CLIENT_ID,
+      clientSecret: CLIENT_SECRET,
+      scopes: ['identity'],
+      additionalHeaders: { 'Accept': 'application/json' },
+      skipCodeExchange: true,
+      serviceConfiguration: {
+        authorizationEndpoint: 'https://github.com/login/oauth/authorize',
+        tokenEndpoint: 'https://github.com/login/oauth/access_token',
+        revocationEndpoint:
+          `https://github.com/settings/connections/applications/${CLIENT_ID}`
       }
-    })
+    }
 
-    manager.authorize("github", {scopes: "user"}).then((response: any) => {
-    })
+    try {
+      const result = await authorize(config)
+
+      if(result && result.authorizationCode) {
+        setCode(result.authorizationCode)
+      }
+
+      setIsSigningIn(false)
+    } catch(err) {
+      console.log(err)
+    }
   }
 
   async function signOut() {
@@ -56,7 +72,7 @@ function AuthProvider({ children }: AuthProviderProps) {
     
     <AuthContext.Provider value={{
       user,
-      isSigningIng,
+      isSigningIn,
       signIn,
       signOut
     }}>

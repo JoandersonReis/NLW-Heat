@@ -18,51 +18,103 @@
 13-->[com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
 14
-15    <application
-15-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:6:5-24:19
-16        android:name="com.mobile.MainApplication"
-16-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] /home/joanderson/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:11:9-86
-25-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
-26        <activity
-26-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:13:7-23:18
-27            android:name="com.mobile.MainActivity"
-27-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:20:13-65
-33-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:21:13-73
-35-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+15    <queries>
+15-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:26:5-34:15
+16        <intent>
+16-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:27:9-33:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:13-65
+17-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:21-62
+18
+19            <category android:name="android.intent.category.BROWSABLE" />
+19-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:13-74
+19-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:23-71
+20
+21            <data android:scheme="https" />
+21-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:13-44
+21-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:19-41
+22        </intent>
+23    </queries>
+24
+25    <application
+25-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:6:5-24:19
+26        android:name="com.mobile.MainApplication"
+26-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:7:7-38
+27        android:allowBackup="false"
+27-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:11:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.5.0] /home/joanderson/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:9:7-41
+31        android:label="@string/app_name"
+31-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:10:7-52
+33        android:theme="@style/AppTheme"
+33-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:12:7-38
+34        android:usesCleartextTraffic="true" >
+34-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:11:9-86
+35-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
+36        <activity
+36-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:13:7-23:18
+37            android:name="com.mobile.MainActivity"
+37-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:14:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:16:9-86
+39            android:label="@string/app_name"
+39-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:15:9-41
+40            android:launchMode="singleTask"
+40-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:17:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:18:9-51
+42            <intent-filter>
+42-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:20:13-65
+43-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:20:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:21:13-73
+45-->/home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:21:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:37:9-41:75
+49            android:name="net.openid.appauth.AuthorizationManagementActivity"
+49-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:38:13-78
+50            android:exported="false"
+50-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:39:13-37
+51            android:launchMode="singleTask"
+51-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:40:13-44
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:41:13-72
+53        <activity
+53-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:42:9-53:20
+54            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+54-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:43:13-74
+55            android:exported="true" >
+55-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:44:13-36
+56            <intent-filter>
+56-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:13-65
+57-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:21-62
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:17-76
+59-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:13-74
+60-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:23-71
+61
+62                <data android:scheme="com.nlwheat.mobile" />
+62-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:13-44
+62-->[net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:19-41
+63            </intent-filter>
+64        </activity>
+65    </application>
+66
+67</manifest>

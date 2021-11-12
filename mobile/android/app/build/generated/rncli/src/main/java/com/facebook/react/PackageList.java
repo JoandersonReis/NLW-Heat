@@ -11,10 +11,10 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// react-native-app-auth
+import com.rnappauth.RNAppAuthPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
-// react-native-oauth
-import io.fullstack.oauth.OAuthManagerPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-vector-icons
@@ -64,8 +64,8 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new RNAppAuthPackage(),
       new LinearGradientPackage(),
-      new OAuthManagerPackage(),
       new ReanimatedPackage(),
       new VectorIconsPackage()
     ));

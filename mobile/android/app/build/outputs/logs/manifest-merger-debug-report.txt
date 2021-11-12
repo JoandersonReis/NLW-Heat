@@ -8,7 +8,7 @@ MERGED from /home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2c29b736c8f2a9d82fade7115b471d70/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/joanderson/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-oauth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-oauth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-app-auth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-app-auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.66.1] /home/joanderson/.gradle/caches/transforms-3/17983b27092628c498529e8f14a21a1e/transformed/jetified-react-native-0.66.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/joanderson/.gradle/caches/transforms-3/9341f36f0ce470d4b55127e33c2ce075/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -35,6 +35,8 @@ MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/joanderson/.gradle/ca
 MERGED from [androidx.autofill:autofill:1.1.0] /home/joanderson/.gradle/caches/transforms-3/be9076cd4fc3ff6ad98aa6fb277b3148/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:middleware:2.5.0] /home/joanderson/.gradle/caches/transforms-3/2bd3d214b93dcf428cfd42cc8814b2ed/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/joanderson/.gradle/caches/transforms-3/78eba43129e0d31bec1d131435c69dcf/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:15:1-56:12
+MERGED from [androidx.browser:browser:1.3.0] /home/joanderson/.gradle/caches/transforms-3/642f5e8b1a39add38a1d5b024bce912c/transformed/browser-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/joanderson/.gradle/caches/transforms-3/262def0251b4f6c882149d15641ff92b/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/joanderson/.gradle/caches/transforms-3/57e3d46cd409853c916c88a2c3ae94fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/joanderson/.gradle/caches/transforms-3/db0f9dfc2cb9e58d20874cad38a46146/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -57,7 +59,6 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/joanderson/.gradle/caches/tra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/joanderson/.gradle/caches/transforms-3/52571f97fa6c48622e09021afd8f199b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/joanderson/.gradle/caches/transforms-3/d17db292503a9dfb32fc2010180b8533/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joanderson/.gradle/caches/transforms-3/f9626132104606c8a5a0763d03129850/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] /home/joanderson/.gradle/caches/transforms-3/3ceb2450f8f4c8891e262510390e9c5a/transformed/jetified-Android-AdvancedWebView-v3.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/joanderson/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/joanderson/.gradle/caches/transforms-3/65083a7e9fb6753ce1340588a4e7a976/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -84,6 +85,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /home/joanderson/Documents/projects/nlw-heat/mobile/android/app/src/main/AndroidManifest.xml:4:22-64
 application
@@ -94,12 +97,12 @@ MERGED from [com.facebook.react:react-native:0.66.1] /home/joanderson/.gradle/ca
 MERGED from [com.facebook.react:react-native:0.66.1] /home/joanderson/.gradle/caches/transforms-3/17983b27092628c498529e8f14a21a1e/transformed/jetified-react-native-0.66.1/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/joanderson/.gradle/caches/transforms-3/4c346baed8905fc786ccf697aebc99f4/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/joanderson/.gradle/caches/transforms-3/4c346baed8905fc786ccf697aebc99f4/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:36:5-54:19
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:36:5-54:19
 MERGED from [androidx.core:core:1.5.0] /home/joanderson/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] /home/joanderson/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/joanderson/.gradle/caches/transforms-3/233eab6c731cb1ce714d2d0256cc6f18/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/joanderson/.gradle/caches/transforms-3/233eab6c731cb1ce714d2d0256cc6f18/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] /home/joanderson/.gradle/caches/transforms-3/3ceb2450f8f4c8891e262510390e9c5a/transformed/jetified-Android-AdvancedWebView-v3.0.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] /home/joanderson/.gradle/caches/transforms-3/3ceb2450f8f4c8891e262510390e9c5a/transformed/jetified-Android-AdvancedWebView-v3.0.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/joanderson/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
@@ -158,8 +161,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/joanderso
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2c29b736c8f2a9d82fade7115b471d70/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/joanderson/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/joanderson/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-oauth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-oauth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-oauth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-oauth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-app-auth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-app-auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-app-auth] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-app-auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /home/joanderson/Documents/projects/nlw-heat/mobile/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.66.1] /home/joanderson/.gradle/caches/transforms-3/17983b27092628c498529e8f14a21a1e/transformed/jetified-react-native-0.66.1/AndroidManifest.xml:5:5-7:41
@@ -212,6 +215,10 @@ MERGED from [com.facebook.fresco:middleware:2.5.0] /home/joanderson/.gradle/cach
 MERGED from [com.facebook.fresco:middleware:2.5.0] /home/joanderson/.gradle/caches/transforms-3/2bd3d214b93dcf428cfd42cc8814b2ed/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/joanderson/.gradle/caches/transforms-3/78eba43129e0d31bec1d131435c69dcf/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/joanderson/.gradle/caches/transforms-3/78eba43129e0d31bec1d131435c69dcf/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /home/joanderson/.gradle/caches/transforms-3/642f5e8b1a39add38a1d5b024bce912c/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /home/joanderson/.gradle/caches/transforms-3/642f5e8b1a39add38a1d5b024bce912c/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/joanderson/.gradle/caches/transforms-3/262def0251b4f6c882149d15641ff92b/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/joanderson/.gradle/caches/transforms-3/262def0251b4f6c882149d15641ff92b/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/joanderson/.gradle/caches/transforms-3/57e3d46cd409853c916c88a2c3ae94fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -256,8 +263,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/joanderson/
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/joanderson/.gradle/caches/transforms-3/d17db292503a9dfb32fc2010180b8533/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joanderson/.gradle/caches/transforms-3/f9626132104606c8a5a0763d03129850/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joanderson/.gradle/caches/transforms-3/f9626132104606c8a5a0763d03129850/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] /home/joanderson/.gradle/caches/transforms-3/3ceb2450f8f4c8891e262510390e9c5a/transformed/jetified-Android-AdvancedWebView-v3.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] /home/joanderson/.gradle/caches/transforms-3/3ceb2450f8f4c8891e262510390e9c5a/transformed/jetified-Android-AdvancedWebView-v3.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/joanderson/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/joanderson/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/joanderson/.gradle/caches/transforms-3/65083a7e9fb6753ce1340588a4e7a976/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -282,3 +287,43 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.99.0] /home/joanderson/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+queries
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:26:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:27:9-33:18
+action#android.intent.action.VIEW
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:23-71
+data
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:13-44
+	android:scheme
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:19-41
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:37:9-41:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:40:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:39:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:38:13-78
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:42:9-53:20
+	android:exported
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:43:13-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${appAuthRedirectScheme}
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.nlwheat.mobile
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+category#android.intent.category.DEFAULT
+ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from [net.openid:appauth:0.8.1] /home/joanderson/.gradle/caches/transforms-3/28ff4c7655317e86c25cc50cbc2b2490/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:27-73

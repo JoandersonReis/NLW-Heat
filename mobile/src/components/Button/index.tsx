@@ -1,7 +1,6 @@
 import React from "react";
 import { ColorValue, TouchableOpacity, TouchableOpacityProps, Text, ActivityIndicator } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome"
-import { COLORS } from "../../theme";
 
 
 import { styles } from "./styles";
